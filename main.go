@@ -33,6 +33,7 @@ func main() {
 		fmt.Println("Choose your option : ")
 		fmt.Println("(1) Get All Review Summary")
 		fmt.Println("(2) Get Review Summary by Product ID")
+		fmt.Println("(stop) End the program")
 		fmt.Print("Enter your choice number: ")
 		scanner.Scan()
 		text = scanner.Text()
